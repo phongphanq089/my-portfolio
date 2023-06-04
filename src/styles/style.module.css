@@ -1,0 +1,49 @@
+.header_navbar {
+    position: relative;
+    padding: 32px 0px;
+}
+.footer {
+    margin: 64px 0px;
+}
+
+.header_social svg {
+ font-size: 2rem;
+}
+.about_me .about_me_remuse {
+  background-color: #1b1b1b ;
+  padding: 16px 32px;
+  color: #fff;
+  border-radius: 5px;
+  font-weight: 600;
+}
+.about_me .about_me_contact {
+    background-color: #a21caf ;
+    padding: 16px 32px;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: 600;
+}
+.logo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.logo a {
+    color: #fff;
+}
+
+.circularIcon_around {
+    animation: circular-rotate 3s linear infinite;
+}
+
+@keyframes circular-rotate {
+    0% {
+      transform: rotate(0deg);
+      
+      transform-origin: 50% 50%;
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
