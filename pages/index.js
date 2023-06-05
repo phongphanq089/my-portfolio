@@ -1,15 +1,15 @@
-import { Box, Button, Grid, Stack, Typography } from '@mui/material';
+import { Box, Button, Grid, Stack, Typography, useMediaQuery } from '@mui/material';
 import Layout from '@components/Layout';
 import Image from 'next/image';
 import profilePic from '../public/images/portfolio/developer-pic-1.png';
 import AnimatedText from '@components/AnimatedText';
-import styles from '@styles/style.module.css';
 import { Color, fontWeight } from '@styles/styles';
 import Link from 'next/link';
 import FeatherIcon from 'feather-icons-react/build/FeatherIcon';
 import HireMe from 'src/element/HireMe';
 
 export default function Home() {
+
   return (
     <Layout>
       <Box my={4}>

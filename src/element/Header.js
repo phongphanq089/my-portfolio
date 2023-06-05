@@ -30,7 +30,7 @@ const Header = () => {
             fontWeight={fontWeight.SemiBold}
           >
             <CustomLink href='/' title='Home' className='mr-4' />
-            <CustomLink href='#' title='About' className='mx-4' />
+            <CustomLink href='/about' title='About' className='mx-4' />
             <CustomLink href='#' title='Project' className='mx-4' />
             <CustomLink href='#' title='Article' className='ml-4' />
           </Stack>
