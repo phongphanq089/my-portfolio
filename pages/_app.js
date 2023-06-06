@@ -1,5 +1,5 @@
 import { ThemeProvider } from '@mui/material';
-import '@styles/globals.css';
+import '@styles/scss/_app.scss';
 import CustomTheme from '@theme/Theme';
 import { Montserrat } from 'next/font/google';
 import Head from 'next/head';

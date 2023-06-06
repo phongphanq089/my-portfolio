@@ -3,7 +3,8 @@
     padding: 32px 0px;
 }
 .footer {
-    margin: 64px 0px;
+    padding-top: 64;
+    background-color: #171717;
 }
 
 .header_social svg {

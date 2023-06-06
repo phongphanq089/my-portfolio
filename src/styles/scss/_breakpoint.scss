@@ -1,0 +1,40 @@
+@mixin doownMobileSmall {
+    @media only screen and (max-width: 456px) {
+        @content;
+    }
+}
+
+@mixin downSm {
+    @media only screen and (max-width: 576px) {
+
+        @content;
+    }
+}
+
+@mixin downMd {
+    @media only screen and (max-width: 768px) {
+
+        @content;
+    }
+}
+
+@mixin downLg {
+    @media only screen and (max-width: 992px) {
+
+        @content;
+    }
+}
+
+@mixin downXl {
+    @media only screen and (max-width: 1200px) {
+
+        @content;
+    }
+}
+
+@mixin downdXxl {
+    @media only screen and (max-width: 1400px) {
+
+        @content;
+    }
+}
